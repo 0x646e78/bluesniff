@@ -1,0 +1,23 @@
+Bluestniff INSTALL
+7/31/2003
+
+This is Bluesniff 0.1.  It's really rough.  I seriously hope you know what 
+you're doing
+--------------------------------------------------------------------------
+Installation
+This has only been tested on RedHat 9 with a stock kernel.  If you find
+any problems on other platforms, please let me (gdead@shmoo.com) know.
+
+In order to use Bluesniff, you must first have a working bluetooth card.
+Check out http://bluez.sourceforge.net/ for a list of supported cards,
+installation instructions for the bluetooth drivers, and lots of other 
+groovy bluetooth tools.
+
+Then, you need to install redfang, a bluetooth brute force MAC guessing
+tool.  Check out http://www.atstake.com/ for redfang code and instructions
+for getting it working.
+
+Finally you need Curses::Application.  See http://www.cpan.org/ for you
+Perl-y needs
+
+
